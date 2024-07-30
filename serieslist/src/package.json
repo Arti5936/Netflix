@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@suprsend/node-sdk": "^1.10.0"
+  }
+}

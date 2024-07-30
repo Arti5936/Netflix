@@ -5,10 +5,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
  import Card from "./Card.jsx";
- import "./App.css";
-          ReactDOM.render(<>
 
-          <h1 className='heading'>TOP 6 NETFLIX SERIES</h1>
+ import "./App.css";
+import App from './App.jsx';
+          ReactDOM.render(<>
+            
+          <h1 className='heading'>MY NETFLIX APP</h1>
+           <App></App>
        <Card
        imgsrc="./images/gambit.jpg"  title = "A netflix original series"
        link = "https://www.netflix.com/in/title/80234304"
